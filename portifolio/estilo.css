@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:block;
+    justify-content: space-around;
+}   
+.aba{
+    width: 80%;
+    padding:3%;
+    padding-left:10% ;
+    background:rgb(0, 0, 0);
+    display: flex ;
+    justify-content: space-between;
+    align-items: right;
+}
+.logo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-image: rgb(236, 230, 230);
+    background-size: 50% 10%;
+    font-weight: 400%;
+    text-decoration: none;   
+}
+
+.navbar{
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:35px;
+    transition: 3s;
+}
+.navbar a:hover,
+.navbar a.ativar {
+    color:white;
+}
+.home{
+    height: 200px;
+    align-items:left;
+    width: 72%;
+}
+.pagina-inicial{
+    padding-right: 10%;
+    max-width: 900px;
+    color: aliceblue;
+    border-width: 1px;
+}
+.pagina-inicial h1{
+    font-size: 56px;
+    font-weight: 500;
+}
+.pagina-inicial h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(10, 14, 250);
+}
+.pagina-inicial p{
+    font-size: 19px;
+    display: inline-block;
+}
