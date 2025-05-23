@@ -1,0 +1,67 @@
+body {
+      margin: 0;
+      background: black url('https://www.transparenttextures.com/patterns/stardust.png');
+      font-family: Arial, sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      width: 100%;
+      background: linear-gradient(to right, #000000, #000033);
+      padding: 0.8rem 1rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #00bfff;
+    }
+
+    .section {
+      padding: 20px 20px;
+      min-height: 100vh;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #home h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    #typing {
+      font-size: 1.2rem;
+      max-width: 600px;
+      border-right: 3px solid white;
+      animation: typing 4s steps(60, end), blink 0.90s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }

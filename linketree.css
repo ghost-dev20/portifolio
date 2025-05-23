@@ -1,0 +1,124 @@
+body {
+      background: black url('https://www.transparenttextures.com/patterns/stardust.png');
+      font-family: Arial, sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      width: 100%;
+      background: linear-gradient(to right, #000000, #000033);
+      padding: 0.8rem 1rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #00bfff;
+    }
+
+    .section {
+      padding: 20px 20px;
+      min-height: 10vh;
+    }
+       .container { 
+    margin: 0 auto;
+    background-color: #070707;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 3px solid #f1f1f1;
+}
+
+.sub-title {
+    margin-bottom: 50px;
+} 
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    background-color: #0c0c0c;
+    text-decoration: none;
+
+    p {
+        color: #ffffff;
+    }
+}
+  #github {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .github {
+      background-color: #111;
+      border-radius: 1px;
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .github:hover {
+      transform: scale(1.05);
+      background-color: #1a1a1a;
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+    }
+ #instragam {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .instagram {
+      background-color: #111;
+      border-radius: 1px;
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .instagram:hover {
+      transform: scale(1.05);
+      background-color: #1a1a1a;
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+    }
+ #whatsapp {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .whatsapp {
+      background-color: #111;
+      border-radius: 1px;
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .whatsapp:hover {
+      transform: scale(1.05);
+      background-color: #1a1a1a;
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+    }
